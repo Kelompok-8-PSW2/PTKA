@@ -14,11 +14,11 @@
 <body>
     <div class="col-md-4" style="background-color:cyan ;">
         <center>
-            <img src="gambar/logo.png" alt="" width="150">
+            <img src="" alt="">
             <h2>PTKA</h2>
             <H3>Kereta Api ABC</H3>
             <hr>
-        </center><br><br>
+        </center><br><br><br>
         <h5><center>
             PEMESANAN TIKET <br><br></h5>
             <label for="stasiun">STASIUN TUJUAN</label><br>
@@ -84,9 +84,11 @@
                 </div>
             </div>
         </div>
+
+    <br><br>
     
-    <br><br><br>
-
-
+    <div class="col-md-8">
+    <p class= "tulisan_satu">AMAN,NYAMAN,TERPERCAYA</p>
+    
 </body>
 </html>
