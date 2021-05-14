@@ -114,30 +114,30 @@
                     </div>
                     <!-- body modal -->
                     <div class="modal-body">
-                        <form>
+                        <form method="post" action="proses_form.php">
                             <div class="form-group">
-                                <input type="text" id="username" class="form-control" placeholder="Nama">
+                                <input type="text" id="username" name="nama" class="form-control" placeholder="Nama">
                             </div>
                             <div class="form-group">
-                                <input type="number" id="noTelp" class="form-control" placeholder="No.Telp">
+                                <input type="number" id="noTelp" name="telepon" class="form-control" placeholder="No.Telp">
                             </div>
                             <div class="form-group">
                                 Hari Keberangkatan
-                                <input type="date" id="hariKeberangkatan" class="form-control" placeholder="hariKeberangkatan">
+                                <input type="date" id="hariKeberangkatan" name="hari" class="form-control" placeholder="hariKeberangkatan">
                             </div>
                             <div class="form-group">
                                 Jam Keberangkatan
-                                <input type="time" id="jamKeberangkatan" class="form-control" placeholder="Jam Keberangkatan">
+                                <input type="time" id="jamKeberangkatan" name="jam" class="form-control" placeholder="Jam Keberangkatan">
                             </div>
                             <div class="form-group">
-                                <select name="pilihPembayaran" id="pilihPembayaran" class="form-control">
+                                <select name="pilihPembayaran" id="pilihPembayaran" name="bayar" class="form-control">
                                     <option value="Pilih Pembayaran">Pilih Pembayaran</option>
                                     <option value="OVO">OVO</option>
                                     <option value="GOPAY">GOPAY</option>
                                     <option value="BANK">BANK</option>
                                 </select>
                             </div>
-                            <center><button type="submit" class="btn btn-primary btn-lg" data-dismiss="modal">Kirim</button></center>
+                            <center><button type="submit" class="btn btn-primary btn-lg" method="post" action="proses_form.php">Kirim</button></center>
                         </form>
                     </div>
                 </div>
