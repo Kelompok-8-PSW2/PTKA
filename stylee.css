@@ -1,0 +1,32 @@
+.col-md-4{
+    float: left;
+    border-top: 1px solid #fefefe; 
+    clear: both;
+    width: 750px;
+    margin:  auto ;
+    color: #000000;
+    text-align:left;
+}
+
+.col-md-8{
+    float: right; width: 1500px;
+}
+
+hr{
+    width: 250px;
+    border-top: 4px solid #333;
+}
+
+.col-md-6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tulisan_satu{
+	text-align: right;
+	text-transform: capitalize;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    font-size: large;
+}
+
