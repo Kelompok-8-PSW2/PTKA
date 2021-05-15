@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php';
+include 'koneksii.php';
 
 if (isset($_GET['aa'])) {
 	$id = stripslashes(strip_tags(htmlspecialchars( base64_decode($_GET['aa']) ,ENT_QUOTES)));
@@ -9,7 +9,7 @@ if (isset($_GET['aa'])) {
     $dewan1->bind_param("i", $id);
     
     if ($dewan1->execute()) {
-    	echo "<script>alert('Data Berhasil Dihapus');location='data.php';</script>";
+    	echo "<script>alert('Data Berhasil Dihapus');location='halaman_admin.php';</script>";
     } else {
     	echo "<script>alert('Error');window.history.go(-1);</script>";
     }
